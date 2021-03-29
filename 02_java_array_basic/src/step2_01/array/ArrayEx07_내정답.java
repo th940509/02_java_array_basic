@@ -1,5 +1,5 @@
 package step2_01.array;
-
+//2021/03/29 21:48 ~ 22:00
 /*
  * # 학생성적관리 프로그램[4단계] : 1등학생
  */
@@ -14,6 +14,17 @@ public class ArrayEx07_내정답 {
 		
 		// 문제) 1등학생의 학번과 성적 출력
 		// 정답) 1004번(98점)
+		int maxIdx = 0;
+		int maxScore = 0;
+	
+		for(int i=0; i<5; i++) {
+			if(maxScore < scores[i]) {
+				maxScore = scores[i];
+				maxIdx = hakbuns[i];
+			}
+		}
+		
+		System.out.println(maxIdx + "번" + maxScore + "점");
 		
 	}
 	

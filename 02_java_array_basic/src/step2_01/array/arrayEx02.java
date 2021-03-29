@@ -22,7 +22,7 @@ public class arrayEx02 {
 		// 배열 사용 예시3 (for문과 조합)
 		int[] arr3 = new int [3];
 		for (int i=0; i<arr3.length; i++) {
-			arr3[1] = (i+1) * 10;
+			arr3[i] = (i+1) * 10;
 		}
 		
 		

@@ -1,5 +1,9 @@
 package step2_01.array;
 
+import java.util.Arrays;
+import java.util.Random;
+
+//2021/03/29 22:27 ~ 23:08
 /*
  * # OMR카드
  * 
@@ -19,10 +23,41 @@ package step2_01.array;
 public class ArrayEx08_내정답 {
 
 	public static void main(String[] args) {
+		Random ran = new Random();
 		
 		int[] answer = {1, 3, 4, 2, 5};
 		int[] hgd = new int[5];
+		char[] ox = new char[5];
+		int score = 0;
+		
+		for (int i=0; i<5; i++) {
+			hgd[i] = ran.nextInt(4)+1;
+		}
+		
+		for(int j=0; j<5; j++) {
+				if(hgd[j] == answer[j]) {
+					ox[j] = 'O';
+					score += 20;
+				} 
+				else {
+					ox[j] = 'X';
+				}
+		}
+		
+		System.out.print("answer = ");
+		System.out.println(Arrays.toString(answer));
+		
+		System.out.print("hgd =    ");
+		System.out.println(Arrays.toString(hgd));
+		
+		System.out.print("정오표 = ");
+		System.out.println(Arrays.toString(ox));
+		
+		System.out.print("성적 = ");
+		System.out.print(score + "점");
+		
+
+		
 		
 	}
-	
 }
