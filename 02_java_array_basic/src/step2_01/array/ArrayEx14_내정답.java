@@ -1,4 +1,5 @@
 package step2_01.array;
+//2021/03/30 20:57 ~ 
 
 import java.util.Scanner;
 
@@ -22,13 +23,50 @@ public class ArrayEx14_내정답 {
 		
 		int[] game = {0, 0, 2, 0, 0, 0, 0};
 		int player = 0;
+		int temp = 0;
 		
 		for (int i=0; i<7; i++) {
 			if (game[i] == 2) {
 				player = i;
 			}
 		}
+		
+		while(true) {
+			
+			for (int i=0; i<7; i++) {
+				if (game[i] == 2) System.out.print("(^_^)");
 				
+				else System.out.print("ㅡ");
+			}
+			System.out.println();
+			System.out.print( "왼쪽(1), 오른쪽(2): ");
+			int move = scan.nextInt();
+			
+			
+			if (move == 1) {
+				for(int i=0; i<7; i++) {
+					if(game[0] == 2) break;
+					if(game[i] == 2) {
+						temp = game[i];
+						game[i] = game[i-1];
+						game[i-1] = temp;
+					}
+				}
+			}		
+			else if (move == 2) {
+				for(int i=0; i<6; i++) {
+					if(game[i] == 2) {
+						temp = game[i];
+						game[i] = game[i+1];
+						game[i+1] = temp;
+						break;
+					}
+				}
+			}		
+		}
+		
+		
 	}
-	
 }
+	
+

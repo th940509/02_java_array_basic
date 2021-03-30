@@ -1,4 +1,6 @@
 package step2_01.array;
+//2021/03/30 20:00 ~ 20:13
+
 import java.util.Arrays;
 //2021/03/30 17:27 ~ 
 import java.util.Scanner;
@@ -65,6 +67,35 @@ public class ArrayEx12_내정답 {
 		int[] hakbuns = {1001, 1002, 1003, 1004, 1005};
 		int[] scores  = {  87,   11,   45,   98,   23};
 		
+		System.out.print("학번 1 입력: ");
+		int hakbun1 = scan.nextInt();
+		System.out.print("학번 2 입력: ");
+		int hakbun2 = scan.nextInt();
+		temp = 0;
+		int idx1 = 0;
+		int idx2 = 0;
+		
+		
+		for(int i=0; i<5; i++) {
+			if(hakbuns[i] == hakbun1) {
+				idx1 = i;
+			}
+			if(hakbuns[i] == hakbun2) {
+				idx2 = i;
+			}
+		}
+		
+		temp = scores[idx1];
+		scores[idx1] = scores[idx2];
+		scores[idx2] = temp;
+		
+		System.out.println("int[hakbuns] = " + Arrays.toString(hakbuns));
+		System.out.println("int[scores] = " + Arrays.toString(scores));
+	
+		
+		
+		
+		scan.close();
 	}
 	
 }

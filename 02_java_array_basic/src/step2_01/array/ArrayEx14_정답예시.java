@@ -44,7 +44,7 @@ public class ArrayEx14_정답예시 {
 
 			if (move == 1) {
 				for (int i=0; i<7; i++) {
-					if (game[0] == 2 ) break;
+					if (game[0] == 2) break;
 					if (game[i] == 2) {
 						temp = game[i];
 						game[i] = game[i-1];
