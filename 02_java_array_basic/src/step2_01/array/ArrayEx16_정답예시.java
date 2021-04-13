@@ -42,7 +42,7 @@ public class ArrayEx16_정답예시 {
 			
 			int r = ran.nextInt(4);
 			
-			if(!isCheck[r]) {
+			if(!isCheck[r]) { // isCheck[r] == false
 				isCheck[r] = true;
 				arr[i++] = r + 1;
 			}
