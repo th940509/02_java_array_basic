@@ -1,5 +1,6 @@
 package step2_01.array;
 //2021/04/13 14:30 ~ 14:50
+
 import java.util.Scanner;
 
 /* 

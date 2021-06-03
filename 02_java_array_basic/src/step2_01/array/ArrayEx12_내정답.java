@@ -92,9 +92,6 @@ public class ArrayEx12_내정답 {
 		System.out.println("int[hakbuns] = " + Arrays.toString(hakbuns));
 		System.out.println("int[scores] = " + Arrays.toString(scores));
 	
-		
-		
-		
 		scan.close();
 	}
 	

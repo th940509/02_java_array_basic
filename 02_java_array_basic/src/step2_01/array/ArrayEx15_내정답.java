@@ -1,5 +1,6 @@
 package step2_01.array;
 //2021/04/13 14:07 ~ 14:25
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -74,7 +75,6 @@ public class ArrayEx15_내정답 {
 		
 		
 		}
-		
 		
 	}
 	

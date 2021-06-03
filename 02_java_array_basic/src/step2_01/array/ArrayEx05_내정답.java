@@ -50,9 +50,6 @@ public class ArrayEx05_내정답 {
 			}
 		}
 		
-
-
-	
 	scan.close();
 	}
 	

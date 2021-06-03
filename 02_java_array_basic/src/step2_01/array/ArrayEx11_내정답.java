@@ -1,6 +1,7 @@
 package step2_01.array;
-import java.util.Arrays;
 //2021/03/30 17:00 ~ 17:18
+
+import java.util.Arrays;
 import java.util.Random;
 
 /*

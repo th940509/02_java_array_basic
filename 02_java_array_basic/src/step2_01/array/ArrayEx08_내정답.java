@@ -1,9 +1,9 @@
 package step2_01.array;
+//2021/03/29 22:27 ~ 23:08
 
 import java.util.Arrays;
 import java.util.Random;
 
-//2021/03/29 22:27 ~ 23:08
 /*
  * # OMR카드
  * 

@@ -1,5 +1,6 @@
 package step2_01.array;
 //2021/03/30 16:27 ~ 16:59
+
 import java.util.Scanner;
 
 /*
@@ -91,7 +92,6 @@ public class ArrayEx10_내정답 {
 				System.out.println("꽝");
 			}
 		}
-		
 		
 		scan.close();
 	}

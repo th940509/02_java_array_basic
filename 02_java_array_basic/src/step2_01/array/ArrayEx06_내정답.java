@@ -42,9 +42,6 @@ public class ArrayEx06_내정답 {
 				}
 			}
 			
-			
-				
-			
 		scan.close();
 	}
 	

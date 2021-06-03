@@ -1,6 +1,7 @@
 package step2_01.array;
-import java.util.Arrays;
 //2021/03/20 15:09 ~ 16:22
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -100,9 +101,6 @@ public class ArrayEx09_내정답 {
 			}
 		
 		}
-				
-		
-		
 		
 		scan.close();
 	}

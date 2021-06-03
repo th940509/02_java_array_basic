@@ -69,9 +69,6 @@ public class ArrayEx03_내정답 {
 		}
 		System.out.println(count + "개");
 		
-		
-		
-		
 	}
 	
 }
